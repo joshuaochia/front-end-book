@@ -1,0 +1,79 @@
+@media only screen and (max-width: 768px) {
+    header .navbar-brand {
+        padding-left: 4rem;
+    }
+
+    .section-1 .row .col-md-6 .panel {
+        position: initial;
+        width: initial;
+        height: initial;
+    }
+
+    .section-2 .cover {
+        background-position: -25vmin;
+    }
+
+    .numbers .rect {
+        width: 10rem;
+        height: 8rem;
+
+    }
+
+    .numbers .rect h1 {
+        font-size: 2rem;
+    }
+
+    .section-3 {
+        height: inherit;
+        padding: 10vmin !important;
+    }
+
+    .section-3 .row h1 {
+        padding: 6vmin 4vmin;
+        font-weight: bold;
+    }
+
+    .section-3 .row .col-md-6 {
+        text-align: center !important;
+    }
+
+    .section-3 .desktop i {
+        font-size: 10vmin;
+    }
+
+    .section-3 .col-md-12 p {
+        font-size: 0.6em;
+    }
+
+    #mobile {
+        padding-top: 0.5em;
+    }
+
+    .section-4 .carousel-item {
+        padding-left: 0.6rem;
+    }
+
+    .section-4 .team {
+        display: flex !important;
+        flex-direction: column !important;
+        align-content: center !important;
+    }
+
+    .section-4 .card {
+        width: auto;
+    }
+
+
+    .section-4 .carousel-inner {
+        width: 21rem;
+    }
+
+    footer {
+        height: auto;
+    }
+
+    #newslatter {
+        padding: 1em 0em 1em 0em;
+
+    }
+}
